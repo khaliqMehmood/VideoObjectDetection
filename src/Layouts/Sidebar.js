@@ -1,35 +1,71 @@
-import React from 'react'
-import { Col, Row, Form, FormControl, Accordion,Button } from 'react-bootstrap'
-import Icon from "../Images/icon_search.png"
+import React from 'react';
+import '../styles/SideBar.css';
+import { Accordion, Button } from 'react-bootstrap';
+import icon_search from "../Images/icon_search.png";
+import itme_1 from "../Images/itme_1.png";
 import { } from 'react-bootstrap-icons';
-import Slider from 'react-slick';
+
 const Sidebar = () => {
     return (
         <>
-          <div>
-                            <p className="ResultDetail">Result Details:</p>
+            <div className="main-body">
+                <div className="side-bar">
+                    <div className='part_one'>
+                        <h6>Result Details:</h6>
+                        <div className="search_box">
+                            <input type="text" className="form-control" name="" value="" placeholder="Search" />
+                            <img src={icon_search} className="icon_search" alt="" />
                         </div>
-                        <Form className="d-flex leftsearchbar">
-                            <FormControl
-                                type="search"
-                                placeholder="Search"
-                                className="me-2"
-                                aria-label="Search"
-                            />
-                            <div className="SearchImage">
-                                <img src={Icon} />
-                            </div>
+                        <div className='Accordion-wrapar'>
+                            <Accordion defaultActiveKey="0" flush>
+                                <Accordion.Item eventKey="0">
+                                    <Accordion.Header>People <span className='number'>(10)</span></Accordion.Header>
+                                    <Accordion.Body>
+                                        <ul>
+                                            <li> <img src={itme_1} alt='' /></li>
+                                            <li> <img src={itme_1} alt='' /></li>
+                                            <li> <img src={itme_1} alt='' /></li>
+                                            <li> <img src={itme_1} alt='' /></li>
+                                            <li> <img src={itme_1} alt='' /></li>
+                                            <li> <img src={itme_1} alt='' /></li>
+                                            <li> <img src={itme_1} alt='' /></li>
+                                            <li> <img src={itme_1} alt='' /></li>
+                                            <li> <img src={itme_1} alt='' /></li>
+                                            <li> <img src={itme_1} alt='' /></li>
 
-                        </Form>
-                        <Accordion className="Acordian-Images">
-                            <Accordion.Item eventKey="0">
-                                <Accordion.Header>people (10)</Accordion.Header>
-                                <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                </Accordion.Body>
-                            </Accordion.Item>
+                                        </ul>
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="1">
+                                    <Accordion.Header>Celebrities <span>(4)</span></Accordion.Header>
+                                    <Accordion.Body>
 
-                        </Accordion>
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="2">
+                                    <Accordion.Header>Objects and Activities <span>(15)</span></Accordion.Header>
+                                    <Accordion.Body>
+
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="3">
+                                    <Accordion.Header>Moderated Labels <span>(14)</span></Accordion.Header>
+                                    <Accordion.Body>
+
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="3">
+                                    <Accordion.Header>Cars <span>(4)</span></Accordion.Header>
+                                    <Accordion.Body>
+
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                            </Accordion>
+                        </div>
+                    </div>
+                    <div className='part_two'> <Button className='btn_download'>  Download Response  </Button></div>
+                </div>
+            </div>
         </>
     )
 }

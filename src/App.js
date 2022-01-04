@@ -6,9 +6,10 @@ import Home from './Components/Home';
 import Header from './Layouts/Header';
 function App() {
   return (
-  <div className="App">     
+  <div className="App">   
  <Header/> 
  <Home/>
+
     </div>
   );
 }

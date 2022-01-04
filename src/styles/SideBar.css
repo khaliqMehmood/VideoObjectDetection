@@ -1,0 +1,14 @@
+.side_bar{
+     width: 400px;
+    min-height: 100vh;
+    padding: 20px;
+}
+.side_bar h2{
+    text-align: left;
+    font: normal normal 900 20px/24px SF UI Display;
+    letter-spacing: 0px;
+    color: #0B0C0D;
+    opacity: 1;
+}
+
+

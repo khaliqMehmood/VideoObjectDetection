@@ -47,69 +47,20 @@ class VideoApp extends Component {
     }
     pauseVideo = () => {
         this.video.pause();
-      };
-    //   playVideo = () => {
-    //     this.video.play()
-    //   };
-    
+    };
+
     MoveProgressBar(value) {
         document.getElementsByTagName("video")[0].play()
         console.log(document.getElementsByTagName("video")[0].play());
-        //    let vid=document.getElementsByClassName("video-js vjs-big-play-centered video-player-1641233961395-dimensions vjs-controls-enabled vjs-workinghover vjs-v7 vjs-has-started vjs-paused vjs-user-inactive");
 
-        
-        // if(video.paused){
-        //     video.play();
-        // }
-        // else{
-        //     video.pause();
-        // }
-        // var vid = document.getElementById("bar_movment");
-        // function playVid() {
-        //     x.play();
-        //   }
-          
-        //   function pauseVid() {
-        //     x.pause();
-        //   }
-        
     }
     render() {
-        // var vid = document.getElementById("bar_movment");
-        // function playVid() {
-        //     vid.play();
-        //   }
-          
-        //   function pauseVid() {
-        //     vid.pause();
-        //   }
         return (
-            
-            // <div>
-            //     <div className="Video-Tag">
-            //         <span className="blue-color">{this.onVideoSeeked.bind(this)}</span>
-            //     </div>
-            //     <VideoPlayer
-            //         src={this.state.video.src}
-            // controls={true}
-            // src={this.state.video.src}
-            // poster={this.state.video.poster}
-            // width="720"
-            // height="420"
-            // onReady={this.onPlayerReady.bind(this)}
-            // onPlay={this.onVideoPlay.bind(this)}
-            // onPause={this.onVideoPause.bind(this)}
-            // onTimeUpdate={this.onVideoTimeUpdate.bind(this)}
-            // onSeeking={this.onVideoSeeking.bind(this)}
-            // onSeeked={this.onVideoSeeked.bind(this)}
-            // onEnd={this.onVideoEnd.bind(this)}
-            //     />
-            // </div>
-            
+
             <>
                 <div className="vedio_wraper ">
                     <div className="card">
-                        <div className="bar_movment" id="bar_movment" onMouseDown={()=>{this.MoveProgressBar()}}>
+                        <div className="bar_movment" id="bar_movment" onMouseDown={() => { this.MoveProgressBar() }}>
                             <span></span>
                         </div>
                         <div class="vedio_bar">
@@ -142,18 +93,18 @@ class VideoApp extends Component {
     }
 }
 export default VideoApp;
-<div 
-    tabindex="0" 
-    class="vjs-progress-holder vjs-slider vjs-slider-horizontal" 
-    role="slider" 
-    aria-valuenow="58.97" 
-    aria-valuemin="0" 
-    aria-valuemax="100" 
-    aria-label="Progress Bar" 
+<div
+    tabindex="0"
+    class="vjs-progress-holder vjs-slider vjs-slider-horizontal"
+    role="slider"
+    aria-valuenow="58.97"
+    aria-valuemin="0"
+    aria-valuemax="100"
+    aria-label="Progress Bar"
     aria-valuetext="0:08 of 0:15"
 >
-    <div 
-        class="vjs-load-progress" 
+    <div
+        class="vjs-load-progress"
         style="width: 100%;"
     >
         <span class="vjs-control-text">
