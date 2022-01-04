@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import VideoPlayer from 'react-video-js-player';
+var x = 1; 
 class VideoApp extends Component {
     player = {}
     state = {
@@ -52,12 +53,26 @@ class VideoApp extends Component {
     //     this.video.play()
     //   };
     
-    MoveProgressBar(value) {
+    MoveProgressBar() {
+      console.log(x);
+      console.log(x);
+      console.log("kha");
+      console.log("kha");      
+      console.log("kha");
+    if(x)
+    {
+        x=0;
         document.getElementsByTagName("video")[0].play()
-        console.log(document.getElementsByTagName("video")[0].play());
-        //    let vid=document.getElementsByClassName("video-js vjs-big-play-centered video-player-1641233961395-dimensions vjs-controls-enabled vjs-workinghover vjs-v7 vjs-has-started vjs-paused vjs-user-inactive");
-
         
+    }
+    else
+    {
+        x=1;
+        document.getElementsByTagName("video")[0].pause()   
+       
+    }
+
+        //    let vid=document.getElementsByClassName("video-js vjs-big-play-centered video-player-1641233961395-dimensions vjs-controls-enabled vjs-workinghover vjs-v7 vjs-has-started vjs-paused vjs-user-inactive");
         // if(video.paused){
         //     video.play();
         // }
@@ -79,12 +94,10 @@ class VideoApp extends Component {
         // function playVid() {
         //     vid.play();
         //   }
-          
         //   function pauseVid() {
         //     vid.pause();
         //   }
         return (
-            
             // <div>
             //     <div className="Video-Tag">
             //         <span className="blue-color">{this.onVideoSeeked.bind(this)}</span>
@@ -105,14 +118,13 @@ class VideoApp extends Component {
             // onEnd={this.onVideoEnd.bind(this)}
             //     />
             // </div>
-            
             <>
                 <div className="vedio_wraper ">
                     <div className="card">
-                        <div className="bar_movment" id="bar_movment" onMouseDown={()=>{this.MoveProgressBar()}}>
+                        <div className="bar_movment" id="bar_movment" onClick={()=>{this.MoveProgressBar()}}>
                             <span></span>
                         </div>
-                        <div class="vedio_bar">
+                        <div class="vedio_bar"  >
                             <span class="box_1"></span>
                             <span class="box_2"></span>
                             <span class="box_3"></span>
@@ -142,29 +154,3 @@ class VideoApp extends Component {
     }
 }
 export default VideoApp;
-<div 
-    tabindex="0" 
-    class="vjs-progress-holder vjs-slider vjs-slider-horizontal" 
-    role="slider" 
-    aria-valuenow="58.97" 
-    aria-valuemin="0" 
-    aria-valuemax="100" 
-    aria-label="Progress Bar" 
-    aria-valuetext="0:08 of 0:15"
->
-    <div 
-        class="vjs-load-progress" 
-        style="width: 100%;"
-    >
-        <span class="vjs-control-text">
-            <span>Loaded</span>: <span class="vjs-control-text-loaded-percentage">100.00%</span>
-        </span>
-        <div style="left: 0%; width: 100%;"></div>
-    </div>
-    <div class="vjs-mouse-display" style="left: 341px;">
-        <div class="vjs-time-tooltip" aria-hidden="true" style="right: -17.7246px;">0:08</div>
-    </div>
-    <div class="vjs-play-progress vjs-slider-bar" aria-hidden="true" style="width: 58.97%;">
-        <div class="vjs-time-tooltip" aria-hidden="true" style="right: -17.7246px;">0:08</div>
-    </div>
-</div>
