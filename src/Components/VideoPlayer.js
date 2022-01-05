@@ -57,11 +57,11 @@ class VideoApp extends Component {
                             <span>33</span>
                         </div>
                         <div class="vedio_bar" id="Don" type="range" min="0" max="100" >
-                            {/* <span class="box_1"></span>
+                            <span class="box_1"></span>
                             <span class="box_2"></span>
                             <span class="box_3"></span>
                             <span class="box_4"></span>
-                            <span class="box_5"> </span>  */}
+                            <span class="box_5"> </span> 
                             </div>
                         <div className="vedio">
                             <VideoPlayer id="myvideo"

@@ -18,8 +18,8 @@ const Home = () => {
                         <p>Upload time is based on your bandwisth and video size.</p>
                     </div>
                     <div className='Add-URL'>
-                        <input type="text" className="form-control" name="" value="" placeholder="Add URL" />
-                        <span>Proceed</span>
+                        <input type="text" className="form-control" name=""  placeholder="Add URL" />
+                        <span type="submit">Proceed</span>
                     </div>
                     <div className='drag_drop'>
                         <h1>Drag & Drop to upload your file</h1>

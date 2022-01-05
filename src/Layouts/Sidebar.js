@@ -21,8 +21,8 @@ const Sidebar = () => {
                     <div className='part_one'>
                         <h6>Result Details:</h6>
                         <div className="search_box">
-                            <input type="text" className="form-control" name="" value="" placeholder="Search" />
-                            <img src={icon_search} className="icon_search" alt="" />
+                            <input type="text" className="form-control" name="" placeholder="Search" />
+                            <img src={icon_search} className="icon_search" type="submit" alt="" />
                         </div>
                         <div className='Accordion-wrapar'>
                             <Accordion defaultActiveKey="0" flush>

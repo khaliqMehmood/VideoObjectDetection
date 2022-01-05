@@ -561,35 +561,41 @@ button.btn_download.btn.btn-primary {
 	width: 25px;
 	min-height: 24px;
 	background: #147BFC 0% 0% no-repeat padding-box;
-	z-index: 1;
+	
 }
 
 .box_2 {
 	width: 92px;
 	min-height: 24px;
 	background: #147BFC 0% 0% no-repeat padding-box;
-	z-index: 1;
+
 }
 
 .box_3 {
 	width: 5px;
 	min-height: 24px;
 	background: #147BFC 0% 0% no-repeat padding-box;
-	z-index: 1;
+
 }
 
 .box_4 {
 	width: 16px;
 	min-height: 24px;
 	background: #147BFC 0% 0% no-repeat padding-box;
-	z-index: 1;
+	
 }
 
 .box_5 {
 	width: 48px;
 	min-height: 24px;
 	background: #147BFC 0% 0% no-repeat padding-box;
-	z-index: 1;
+	
+}
+.video-js .vjs-slider{
+	background: transparent!important;
+}
+.video-js .vjs-play-progress{
+	background: transparent;
 }
 /************************************Video player end***********************************/
 .slidecontainer {
@@ -690,7 +696,7 @@ button.btn_download.btn.btn-primary {
     margin-right : 0px;
   }
   .video-js .vjs-play-progress {
-    background-color:  none !important;
+    background-color:  transparent !important;
   }
   .video-js .vjs-load-progress {
     background: rgba(115, 133, 159, 0.5) !important;
