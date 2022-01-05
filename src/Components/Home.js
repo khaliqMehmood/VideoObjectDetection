@@ -34,7 +34,6 @@ const Home = () => {
                         <p>Here are the results we found sorted by category. The marks on the timeline show where we found results that are selected.</p>
                 
                          <SimpleSlider />  
-                       
                         <VideoApp />
                     </div>
                 </div>
