@@ -524,7 +524,7 @@ button.btn_download.btn.btn-primary {
 .bar_movment {
 	position: absolute;
 	width: 3px;
-	height: 101%;
+	height: 92%;
 	top: -5px;
 	left: 9px;
 	bottom: 0;
@@ -671,16 +671,16 @@ button.btn_download.btn.btn-primary {
   }
   .vjs-volume-menu-button {
     position: fixed;
-    bottom: 0; right: 40px;
+    bottom: 0; right: 20px;
   }
   .vjs-playback-rate {
     position: fixed;
-    bottom: 0; right: 0;
+    bottom: 0; left: -90px;
   }
   .vjs-fullscreen-control {
     position: fixed;
     bottom: 0; right: 0;
-	left: 440px;
+	left: 370px;
   }
   .vjs-progress-control {  
     position: fixed;
@@ -712,15 +712,7 @@ button.btn_download.btn.btn-primary {
     position: absolute !important;
     bottom: 16px !important;
   }
-  /* .video-js .vjs-control {
-    
-    text-align: center;
-    margin: 0;
-    padding: 0px;
-    height: 865% ;
-    width: 4em;
-    flex: none;
-} */
+
   .video-js{
     max-width: 100% !important;
   }

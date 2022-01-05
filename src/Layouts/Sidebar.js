@@ -21,8 +21,8 @@ const Sidebar = () => {
                     <div className='part_one'>
                         <h6>Result Details:</h6>
                         <div className="search_box">
-                            <input type="text" className="form-control" name="" placeholder="Search" />
-                            <img src={icon_search} className="icon_search" type="submit" alt="" />
+                            <input type="text" className="form-control" name=""  placeholder="Search" />
+                            <img src={icon_search}  type="submit" className="icon_search" alt="" />
                         </div>
                         <div className='Accordion-wrapar'>
                             <Accordion defaultActiveKey="0" flush>
@@ -51,31 +51,6 @@ const Sidebar = () => {
                                     })
                                 }
                                 
-
-                                {/* <Accordion.Item eventKey="1">
-                                    <Accordion.Header>Dining table <span>({data['dining table']})</span></Accordion.Header>
-                                    <Accordion.Body>
-
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="2">
-                                    <Accordion.Header>Potted plant <span>({data['potted plant']})</span></Accordion.Header>
-                                    <Accordion.Body>
-
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="3">
-                                    <Accordion.Header>Cars<span>({data.car})</span></Accordion.Header>
-                                    <Accordion.Body>
-
-                                    </Accordion.Body>
-                                </Accordion.Item> */}
-                                {/* <Accordion.Item eventKey="3">
-                                    <Accordion.Header>Cars <span>(4)</span></Accordion.Header>
-                                    <Accordion.Body>
-
-                                    </Accordion.Body>
-                                </Accordion.Item> */}
                             </Accordion>
                         </div>
                     </div>
