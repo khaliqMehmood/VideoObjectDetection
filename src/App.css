@@ -102,8 +102,19 @@ header {
 	display: flex;
 	align-items: center;
 	padding: 0 26px;
+  justify-content: space-between;
 }
-
+header button.btn_togaller.btn.btn-primary {
+  background: no-repeat;
+  border: none;
+  padding: 0;
+}
+.navbar_close_icon{
+  display: none;
+}
+.navbar_icon{
+  display: none;
+}
 .header-footer {
 	min-height: 52px;
 	background: #ECEDEF 0% 0% no-repeat padding-box;
@@ -142,6 +153,14 @@ header {
 	background: #fff;
 	display: flex;
 	flex-flow: wrap;
+  position:fixed;
+  left: 0;
+  top: 117px;
+}
+.header-wraper {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .part_one {
@@ -151,7 +170,7 @@ header {
 .part_two { 
   width: 400px; 
   position: fixed;
-  bottom: 61px;
+  bottom: 30px;
   left: 0;
   right: 0;  
   display: flex;
@@ -236,8 +255,10 @@ header {
 }
 
 .main-content {
-	width: calc(100% - 400px);
-	background: #F9FAFB;
+  width: calc(100% - 400px);
+  background: #F9FAFB;
+  margin-left: auto;
+  margin-top: 117px;
 }
 
 .search_box .icon_search {
@@ -376,12 +397,12 @@ header {
 	border-radius: 8px;
 	font-size: 20px;
 	font-weight: bold;
+  box-shadow: #147bfc 0px 50px 100px -20px, #147bfc 0px 30px 60px -30px;
 	background: #147BFC 0% 0% no-repeat padding-box;
 	border-radius: 6px;
-	font-family: 'SF UI Display';
-	font-weight: 500;
-	font-style: normal;
-	font-size: 19px;
+  font-weight: bold;
+  font-family: 'SF UI Display';
+  font-size: 15px;  
 	letter-spacing: 0px;
 	color: #FFFFFF;
 	opacity: 1;
@@ -452,7 +473,7 @@ button.btn_download.btn.btn-primary {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin: 18px 4px;
+	margin: 20px auto;
 }
 
 .card-item h1 {
@@ -465,7 +486,8 @@ button.btn_download.btn.btn-primary {
 }
 
 .card-item p {
-	margin-bottom: 0;
+  margin-bottom: 0;
+  font-size: 17px;
 }
 
 .vedio_wraper {
@@ -642,21 +664,22 @@ button.btn_download.btn.btn-primary {
     left: 70px;
   }
   .vjs-volume-menu-button {
-    position: absolute;
-    bottom: 0; right: 55px;
+    position: fixed;
+    bottom: 0; right: 40px;
   }
   .vjs-playback-rate {
-    position: absolute;
-    bottom: 0; right: 28px;
-  }
-  .vjs-fullscreen-control {
-    position: absolute;
+    position: fixed;
     bottom: 0; right: 0;
   }
+  .vjs-fullscreen-control {
+    position: fixed;
+    bottom: 0; right: 0;
+	left: 440px;
+  }
   .vjs-progress-control {  
-    position: absolute;
+    position: fixed;
     bottom: 26px; 
-    left: 0;
+    left: 15px;
     right: 0;
     width: 100%;
     height: 10px;
@@ -683,6 +706,15 @@ button.btn_download.btn.btn-primary {
     position: absolute !important;
     bottom: 16px !important;
   }
+  /* .video-js .vjs-control {
+    
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    height: 865% ;
+    width: 4em;
+    flex: none;
+} */
   .video-js{
     max-width: 100% !important;
   }
