@@ -4,11 +4,11 @@ import Slider from "react-slick";
 // import axios from "axios";
 export default function SimpleSlider() {
   var data = {
+    "All": 76,
     "person": 50,
     "dining table": 2,
     "potted plant": 3,
     "car": 2,
-    "All": 76,
   }
 let objKeys = Object.keys(data);
   var settings = {
