@@ -681,6 +681,7 @@ button.btn_download.btn.btn-primary {
     position: fixed;
     bottom: 0; right: 0;
 	left: 370px;
+	visibility: hidden;
   }
   .vjs-progress-control {  
     position: fixed;
@@ -699,7 +700,10 @@ button.btn_download.btn.btn-primary {
     background-color:  transparent !important;
   }
   .video-js .vjs-load-progress {
-    background: rgba(115, 133, 159, 0.5) !important;
+    background: none !important;
+  }
+  .video-js .vjs-play-progress:before{
+	  display: none !important;
   }
   .video-js .vjs-progress-control {
     cursor: pointer;
@@ -727,5 +731,11 @@ button.btn_download.btn.btn-primary {
 .video-js .vjs-control {
     
     width: 6em !important;
-    
+}
+.validation{  
+    color: red;
+	padding-bottom: 13px;
+	font-size: 20px;
+	font-family: 'SF UI Display';
+  
 }
