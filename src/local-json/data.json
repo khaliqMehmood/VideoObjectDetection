@@ -1,119 +1,1680 @@
 {
+  "video_duration": "0:00:39.973307",
   "objects_count": {
-    "person": 69,
-    "dining table": 2,
-    "potted plant": 3,
-    "car": 2,
-    "All": 76
+    "cow": 53,
+    "bear": 29,
+    "dog": 30,
+    "zebra": 175,
+    "bird": 4,
+    "person": 39,
+    "horse": 72,
+    "elephant": 74,
+    "giraffe": 17,
+    "sheep": 3,
+    "bench": 3,
+    "teddy bear": 1,
+    "traffic light": 1,
+    "bottle": 1,
+    "All": 502
   },
   "objects_loc": {
+    "cow": {
+      "time": [
+        [
+          15.35,
+          15.38
+        ],
+        [
+          17.98,
+          18.02
+        ],
+        [
+          18.49,
+          18.52
+        ],
+        [
+          15.12,
+          15.15
+        ],
+        [
+          16.65,
+          16.68
+        ],
+        [
+          17.88,
+          17.92
+        ],
+        [
+          15.95,
+          15.98
+        ],
+        [
+          16.48,
+          16.52
+        ],
+        [
+          19.12,
+          19.15
+        ],
+        [
+          17.25,
+          17.28
+        ],
+        [
+          18.72,
+          18.75
+        ],
+        [
+          5.21,
+          5.24
+        ],
+        [
+          16.82,
+          16.85
+        ],
+        [
+          16.42,
+          16.45
+        ],
+        [
+          18.12,
+          18.15
+        ],
+        [
+          15.48,
+          15.52
+        ],
+        [
+          15.92,
+          15.95
+        ],
+        [
+          7.67,
+          7.71
+        ],
+        [
+          15.18,
+          15.22
+        ],
+        [
+          16.25,
+          16.28
+        ],
+        [
+          15.85,
+          15.88
+        ],
+        [
+          7.77,
+          7.81
+        ],
+        [
+          15.32,
+          15.35
+        ],
+        [
+          16.88,
+          16.92
+        ],
+        [
+          7.71,
+          7.74
+        ],
+        [
+          17.52,
+          17.55
+        ],
+        [
+          15.75,
+          15.78
+        ],
+        [
+          17.12,
+          17.15
+        ],
+        [
+          18.82,
+          18.85
+        ],
+        [
+          18.18,
+          18.22
+        ],
+        [
+          14.98,
+          15.02
+        ],
+        [
+          16.35,
+          16.38
+        ],
+        [
+          17.75,
+          17.78
+        ],
+        [
+          18.89,
+          18.92
+        ],
+        [
+          18.69,
+          18.72
+        ],
+        [
+          16.52,
+          16.55
+        ],
+        [
+          17.02,
+          17.05
+        ],
+        [
+          18.65,
+          18.69
+        ],
+        [
+          16.22,
+          16.25
+        ],
+        [
+          18.79,
+          18.82
+        ],
+        [
+          15.25,
+          15.28
+        ],
+        [
+          19.22,
+          19.25
+        ],
+        [
+          16.02,
+          16.05
+        ],
+        [
+          4.6,
+          4.64
+        ],
+        [
+          15.28,
+          15.32
+        ],
+        [
+          18.95,
+          18.99
+        ],
+        [
+          19.15,
+          19.19
+        ]
+      ],
+      "frames": [
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame460.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame539.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame554.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame453.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame499.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame536.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame478.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame494.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame573.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame517.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame561.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame156.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame504.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame492.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame543.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame464.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame477.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame230.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame455.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame487.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame475.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame233.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame459.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame506.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame231.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame525.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame472.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame513.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame564.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame545.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame449.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame490.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame532.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame566.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame560.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame495.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame510.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame559.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame486.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame563.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame457.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame576.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame480.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame138.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame458.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame568.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame574.jpg"
+      ]
+    },
+    "bear": {
+      "time": [
+        [
+          31.56,
+          31.6
+        ],
+        [
+          19.69,
+          19.72
+        ],
+        [
+          29.66,
+          29.7
+        ],
+        [
+          32.97,
+          33
+        ],
+        [
+          21.29,
+          21.32
+        ],
+        [
+          29.86,
+          29.9
+        ],
+        [
+          30.83,
+          30.86
+        ],
+        [
+          20.55,
+          20.59
+        ],
+        [
+          22.22,
+          22.26
+        ],
+        [
+          29.8,
+          29.83
+        ],
+        [
+          19.59,
+          19.62
+        ],
+        [
+          31.3,
+          31.33
+        ],
+        [
+          30.73,
+          30.76
+        ],
+        [
+          20.99,
+          21.02
+        ],
+        [
+          19.42,
+          19.45
+        ],
+        [
+          22.32,
+          22.36
+        ],
+        [
+          7.77,
+          7.81
+        ],
+        [
+          22.29,
+          22.32
+        ],
+        [
+          19.25,
+          19.29
+        ],
+        [
+          31.7,
+          31.73
+        ],
+        [
+          31.6,
+          31.63
+        ],
+        [
+          19.29,
+          19.32
+        ],
+        [
+          1.03,
+          1.07
+        ],
+        [
+          29.7,
+          29.73
+        ],
+        [
+          19.32,
+          19.35
+        ],
+        [
+          29.73,
+          29.76
+        ],
+        [
+          30.76,
+          30.8
+        ],
+        [
+          30,
+          30.03
+        ]
+      ],
+      "frames": [
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame946.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame590.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame889.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame988.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame638.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame895.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame924.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame616.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame666.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame893.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame587.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame938.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame921.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame629.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame582.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame669.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame233.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame668.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame577.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame950.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame947.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame578.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame31.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame890.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame579.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame891.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame922.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame899.jpg"
+      ]
+    },
+    "dog": {
+      "time": [
+        [
+          31.56,
+          31.6
+        ],
+        [
+          31.2,
+          31.23
+        ],
+        [
+          37.14,
+          37.17
+        ],
+        [
+          34.5,
+          34.53
+        ],
+        [
+          29.86,
+          29.9
+        ],
+        [
+          35.37,
+          35.4
+        ],
+        [
+          30.83,
+          30.86
+        ],
+        [
+          32.57,
+          32.6
+        ],
+        [
+          30.4,
+          30.43
+        ],
+        [
+          29.8,
+          29.83
+        ],
+        [
+          32.23,
+          32.27
+        ],
+        [
+          32.13,
+          32.17
+        ],
+        [
+          31.3,
+          31.33
+        ],
+        [
+          30.1,
+          30.13
+        ],
+        [
+          32.47,
+          32.5
+        ],
+        [
+          30.73,
+          30.76
+        ],
+        [
+          30.46,
+          30.5
+        ],
+        [
+          32.83,
+          32.87
+        ],
+        [
+          30.23,
+          30.26
+        ],
+        [
+          36.77,
+          36.8
+        ],
+        [
+          30.66,
+          30.7
+        ],
+        [
+          30.16,
+          30.2
+        ],
+        [
+          36.47,
+          36.5
+        ],
+        [
+          31.7,
+          31.73
+        ],
+        [
+          37.4,
+          37.44
+        ],
+        [
+          31.6,
+          31.63
+        ],
+        [
+          36.57,
+          36.6
+        ],
+        [
+          19.22,
+          19.25
+        ],
+        [
+          30.76,
+          30.8
+        ],
+        [
+          30,
+          30.03
+        ]
+      ],
+      "frames": [
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame946.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame935.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1113.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1034.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame895.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1060.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame924.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame976.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame911.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame893.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame966.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame963.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame938.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame902.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame973.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame921.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame913.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame984.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame906.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1102.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame919.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame904.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1093.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame950.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1121.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame947.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1096.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame576.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame922.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame899.jpg"
+      ]
+    },
+    "zebra": {
+      "time": [
+        [
+          24.62,
+          24.66
+        ],
+        [
+          25.19,
+          25.23
+        ],
+        [
+          22.46,
+          22.49
+        ],
+        [
+          23.19,
+          23.22
+        ],
+        [
+          22.96,
+          22.99
+        ],
+        [
+          22.72,
+          22.76
+        ],
+        [
+          24.32,
+          24.36
+        ],
+        [
+          23.02,
+          23.06
+        ],
+        [
+          23.06,
+          23.09
+        ],
+        [
+          25.09,
+          25.13
+        ],
+        [
+          23.89,
+          23.92
+        ],
+        [
+          23.09,
+          23.12
+        ],
+        [
+          22.69,
+          22.72
+        ],
+        [
+          24.09,
+          24.12
+        ],
+        [
+          23.56,
+          23.59
+        ],
+        [
+          23.66,
+          23.69
+        ],
+        [
+          23.26,
+          23.29
+        ],
+        [
+          22.42,
+          22.46
+        ],
+        [
+          22.59,
+          22.62
+        ],
+        [
+          24.42,
+          24.46
+        ],
+        [
+          23.29,
+          23.32
+        ],
+        [
+          24.89,
+          24.92
+        ],
+        [
+          23.59,
+          23.62
+        ],
+        [
+          23.16,
+          23.19
+        ],
+        [
+          23.76,
+          23.79
+        ],
+        [
+          24.26,
+          24.29
+        ],
+        [
+          25.23,
+          25.26
+        ],
+        [
+          24.39,
+          24.42
+        ],
+        [
+          23.69,
+          23.72
+        ],
+        [
+          23.32,
+          23.36
+        ],
+        [
+          23.86,
+          23.89
+        ],
+        [
+          22.76,
+          22.79
+        ],
+        [
+          23.99,
+          24.02
+        ],
+        [
+          24.49,
+          24.52
+        ],
+        [
+          23.79,
+          23.82
+        ],
+        [
+          24.52,
+          24.56
+        ],
+        [
+          24.59,
+          24.62
+        ],
+        [
+          23.49,
+          23.52
+        ],
+        [
+          22.56,
+          22.59
+        ],
+        [
+          24.69,
+          24.72
+        ],
+        [
+          25.16,
+          25.19
+        ],
+        [
+          24.19,
+          24.22
+        ],
+        [
+          24.96,
+          24.99
+        ],
+        [
+          24.82,
+          24.86
+        ],
+        [
+          23.52,
+          23.56
+        ],
+        [
+          23.36,
+          23.39
+        ],
+        [
+          22.36,
+          22.39
+        ],
+        [
+          22.49,
+          22.52
+        ],
+        [
+          23.72,
+          23.76
+        ],
+        [
+          24.99,
+          25.03
+        ],
+        [
+          24.36,
+          24.39
+        ]
+      ],
+      "frames": [
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame738.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame755.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame673.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame695.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame688.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame681.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame729.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame690.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame691.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame752.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame716.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame692.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame680.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame722.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame706.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame709.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame697.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame672.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame677.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame732.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame698.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame746.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame707.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame694.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame712.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame727.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame756.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame731.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame710.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame699.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame715.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame682.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame719.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame734.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame713.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame735.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame737.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame704.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame676.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame740.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame754.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame725.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame748.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame744.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame705.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame700.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame670.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame674.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame711.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame749.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame730.jpg"
+      ]
+    },
+    "bird": {
+      "time": [
+        [
+          0.27,
+          0.3
+        ],
+        [
+          0.23,
+          0.27
+        ],
+        [
+          22.76,
+          22.79
+        ],
+        [
+          23.72,
+          23.76
+        ]
+      ],
+      "frames": [
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame8.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame7.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame682.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame711.jpg"
+      ]
+    },
     "person": {
       "time": [
         [
-          0.30434782608695654,
-          0.34782608695652173
+          1.4,
+          1.43
         ],
         [
-          0.4782608695652174,
-          0.5217391304347826
+          3.9,
+          3.94
         ],
         [
-          0.5217391304347826,
-          0.5652173913043478
+          1.07,
+          1.1
         ],
         [
-          0.6956521739130435,
-          0.7391304347826086
+          0.67,
+          0.7
         ],
         [
-          0.7391304347826086,
-          0.782608695652174
+          2.14,
+          2.17
         ],
         [
-          0.8695652173913043,
-          0.9130434782608695
+          2.1,
+          2.14
         ],
         [
-          1,
-          1.0434782608695652
+          0.57,
+          0.6
         ],
         [
-          1.173913043478261,
-          1.2173913043478262
+          0.1,
+          0.13
         ],
         [
-          1.391304347826087,
-          1.434782608695652
+          1.97,
+          2
         ],
         [
-          1.4782608695652173,
-          1.5217391304347827
+          3.8,
+          3.84
+        ],
+        [
+          1.84,
+          1.87
+        ],
+        [
+          2.8,
+          2.84
+        ],
+        [
+          0.5,
+          0.53
+        ],
+        [
+          1.27,
+          1.3
+        ],
+        [
+          1.6,
+          1.63
+        ],
+        [
+          1.37,
+          1.4
+        ],
+        [
+          1.17,
+          1.2
+        ],
+        [
+          3.67,
+          3.7
+        ],
+        [
+          0.13,
+          0.17
+        ],
+        [
+          0.97,
+          1
+        ],
+        [
+          1.7,
+          1.74
+        ],
+        [
+          1.2,
+          1.23
+        ],
+        [
+          1.23,
+          1.27
+        ],
+        [
+          1.13,
+          1.17
+        ],
+        [
+          3.84,
+          3.87
+        ],
+        [
+          1.77,
+          1.8
+        ],
+        [
+          2.7,
+          2.74
+        ],
+        [
+          0.17,
+          0.2
+        ],
+        [
+          2.2,
+          2.24
+        ],
+        [
+          2.37,
+          2.4
+        ],
+        [
+          2.27,
+          2.3
+        ],
+        [
+          2.4,
+          2.44
+        ],
+        [
+          3.64,
+          3.67
+        ],
+        [
+          0,
+          0.03
+        ],
+        [
+          1.9,
+          1.94
+        ],
+        [
+          0.4,
+          0.43
+        ],
+        [
+          1.74,
+          1.77
+        ],
+        [
+          2,
+          2.04
+        ],
+        [
+          2.04,
+          2.07
         ]
       ],
       "frames": [
-        "7",
-        "11",
-        "12",
-        "16",
-        "17",
-        "20",
-        "23",
-        "27",
-        "32",
-        "34"
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame42.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame117.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame32.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame20.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame64.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame63.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame17.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame3.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame59.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame114.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame55.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame84.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame15.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame38.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame48.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame41.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame35.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame110.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame4.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame29.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame51.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame36.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame37.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame34.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame115.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame53.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame81.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame5.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame66.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame71.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame68.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame72.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame109.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame0.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame57.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame12.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame52.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame60.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame61.jpg"
       ]
     },
-    "dining table": {
+    "horse": {
       "time": [
         [
-          0.4782608695652174,
-          0.5217391304347826
+          1.4,
+          1.43
         ],
         [
-          0.7391304347826086,
-          0.782608695652174
+          3.9,
+          3.94
+        ],
+        [
+          4.14,
+          4.17
+        ],
+        [
+          2.14,
+          2.17
+        ],
+        [
+          2.1,
+          2.14
+        ],
+        [
+          2.77,
+          2.8
+        ],
+        [
+          3.44,
+          3.47
+        ],
+        [
+          2.47,
+          2.5
+        ],
+        [
+          2.94,
+          2.97
+        ],
+        [
+          2.6,
+          2.64
+        ],
+        [
+          3.24,
+          3.27
+        ],
+        [
+          2.64,
+          2.67
+        ],
+        [
+          1.97,
+          2
+        ],
+        [
+          3.8,
+          3.84
+        ],
+        [
+          3.2,
+          3.24
+        ],
+        [
+          1.84,
+          1.87
+        ],
+        [
+          2.8,
+          2.84
+        ],
+        [
+          2.9,
+          2.94
+        ],
+        [
+          1.63,
+          1.67
+        ],
+        [
+          3.17,
+          3.2
+        ],
+        [
+          3.54,
+          3.57
+        ],
+        [
+          4.17,
+          4.2
+        ],
+        [
+          2.74,
+          2.77
+        ],
+        [
+          4.5,
+          4.54
+        ],
+        [
+          4.37,
+          4.4
+        ],
+        [
+          3.3,
+          3.34
+        ],
+        [
+          1.27,
+          1.3
+        ],
+        [
+          1.6,
+          1.63
+        ],
+        [
+          1.37,
+          1.4
+        ],
+        [
+          3.14,
+          3.17
+        ],
+        [
+          3.57,
+          3.6
+        ],
+        [
+          1.17,
+          1.2
+        ],
+        [
+          3.67,
+          3.7
+        ],
+        [
+          3.6,
+          3.64
+        ],
+        [
+          1.7,
+          1.74
+        ],
+        [
+          3.37,
+          3.4
+        ],
+        [
+          1.2,
+          1.23
+        ],
+        [
+          1.23,
+          1.27
+        ],
+        [
+          3.47,
+          3.5
+        ],
+        [
+          3.84,
+          3.87
+        ],
+        [
+          1.77,
+          1.8
+        ],
+        [
+          3.07,
+          3.1
+        ],
+        [
+          2.7,
+          2.74
+        ],
+        [
+          2.2,
+          2.24
+        ],
+        [
+          4.27,
+          4.3
+        ],
+        [
+          2.37,
+          2.4
+        ],
+        [
+          4.2,
+          4.24
+        ],
+        [
+          4.24,
+          4.27
+        ],
+        [
+          2.27,
+          2.3
+        ],
+        [
+          2.4,
+          2.44
+        ],
+        [
+          4.57,
+          4.6
+        ],
+        [
+          3.64,
+          3.67
+        ],
+        [
+          3.34,
+          3.37
+        ],
+        [
+          1.9,
+          1.94
+        ],
+        [
+          1.74,
+          1.77
+        ],
+        [
+          2.44,
+          2.47
+        ],
+        [
+          2,
+          2.04
+        ],
+        [
+          2.04,
+          2.07
         ]
       ],
       "frames": [
-        "11",
-        "17"
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame42.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame117.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame124.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame64.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame63.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame83.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame103.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame74.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame88.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame78.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame97.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame79.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame59.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame114.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame96.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame55.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame84.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame87.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame49.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame95.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame106.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame125.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame82.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame135.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame131.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame99.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame38.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame48.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame41.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame94.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame107.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame35.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame110.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame108.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame51.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame101.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame36.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame37.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame104.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame115.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame53.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame92.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame81.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame66.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame128.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame71.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame126.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame127.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame68.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame72.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame137.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame109.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame100.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame57.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame52.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame73.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame60.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame61.jpg"
       ]
     },
-    "potted plant": {
+    "elephant": {
       "time": [
         [
-          0.4782608695652174,
-          0.5217391304347826
+          11.75,
+          11.78
         ],
         [
-          0.7391304347826086,
-          0.782608695652174
+          13.21,
+          13.25
         ],
         [
-          1.4782608695652173,
-          1.5217391304347827
+          6.81,
+          6.84
+        ],
+        [
+          6.27,
+          6.31
+        ],
+        [
+          14.38,
+          14.41
+        ],
+        [
+          13.95,
+          13.98
+        ],
+        [
+          5.64,
+          5.67
+        ],
+        [
+          5.21,
+          5.24
+        ],
+        [
+          7.41,
+          7.44
+        ],
+        [
+          14.88,
+          14.91
+        ],
+        [
+          14.21,
+          14.25
+        ],
+        [
+          4.64,
+          4.67
+        ],
+        [
+          10.48,
+          10.51
+        ],
+        [
+          7.67,
+          7.71
+        ],
+        [
+          13.61,
+          13.65
+        ],
+        [
+          7.77,
+          7.81
+        ],
+        [
+          12.65,
+          12.68
+        ],
+        [
+          10.71,
+          10.74
+        ],
+        [
+          10.61,
+          10.64
+        ],
+        [
+          14.81,
+          14.85
+        ],
+        [
+          4.8,
+          4.84
+        ],
+        [
+          5.01,
+          5.04
+        ],
+        [
+          14.98,
+          15.02
+        ],
+        [
+          13.38,
+          13.41
+        ],
+        [
+          4.7,
+          4.74
+        ],
+        [
+          15.05,
+          15.08
+        ],
+        [
+          14.68,
+          14.71
+        ],
+        [
+          13.78,
+          13.81
+        ],
+        [
+          14.91,
+          14.95
+        ],
+        [
+          4.67,
+          4.7
+        ],
+        [
+          15.08,
+          15.12
+        ],
+        [
+          4.6,
+          4.64
+        ],
+        [
+          12.68,
+          12.71
         ]
       ],
       "frames": [
-        "11",
-        "17",
-        "34"
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame352.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame396.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame204.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame188.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame431.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame418.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame169.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame156.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame222.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame446.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame426.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame139.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame314.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame230.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame408.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame233.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame379.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame321.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame318.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame444.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame144.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame150.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame449.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame401.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame141.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame451.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame440.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame413.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame447.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame140.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame452.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame138.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame380.jpg"
       ]
     },
-    "car": {
+    "giraffe": {
       "time": [
         [
-          0.6956521739130435,
-          0.7391304347826086
+          37.87,
+          37.9
         ],
         [
-          1.2173913043478262,
-          1.2608695652173914
+          38.91,
+          38.94
+        ],
+        [
+          39.61,
+          39.64
+        ],
+        [
+          38.61,
+          38.64
+        ],
+        [
+          39.07,
+          39.11
+        ],
+        [
+          39.74,
+          39.77
+        ],
+        [
+          38.04,
+          38.07
+        ],
+        [
+          38.47,
+          38.51
+        ],
+        [
+          39.21,
+          39.24
+        ],
+        [
+          38.41,
+          38.44
+        ],
+        [
+          39.41,
+          39.44
+        ],
+        [
+          39.87,
+          39.91
+        ],
+        [
+          38,
+          38.04
+        ],
+        [
+          38.17,
+          38.2
+        ],
+        [
+          38.14,
+          38.17
+        ],
+        [
+          39.84,
+          39.87
+        ],
+        [
+          38.2,
+          38.24
         ]
       ],
       "frames": [
-        "16",
-        "28"
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1135.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1166.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1187.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1157.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1171.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1191.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1140.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1153.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1175.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1151.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1181.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1195.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1139.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1144.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1143.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1194.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame1145.jpg"
+      ]
+    },
+    "sheep": {
+      "time": [
+        [
+          29.66,
+          29.7
+        ],
+        [
+          7.67,
+          7.71
+        ]
+      ],
+      "frames": [
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame889.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame230.jpg"
+      ]
+    },
+    "bench": {
+      "time": [
+        [
+          17.98,
+          18.02
+        ],
+        [
+          1.17,
+          1.2
+        ],
+        [
+          1.2,
+          1.23
+        ]
+      ],
+      "frames": [
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame539.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame35.jpg",
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame36.jpg"
+      ]
+    },
+    "teddy bear": {
+      "time": [
+        [
+          7.67,
+          7.71
+        ]
+      ],
+      "frames": [
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame230.jpg"
+      ]
+    },
+    "traffic light": {
+      "time": [
+        [
+          2.8,
+          2.84
+        ]
+      ],
+      "frames": [
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame84.jpg"
+      ]
+    },
+    "bottle": {
+      "time": [
+        [
+          0.43,
+          0.47
+        ]
+      ],
+      "frames": [
+        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame13.jpg"
       ]
     }
   }

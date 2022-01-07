@@ -4,56 +4,11 @@ import { Accordion, Button } from 'react-bootstrap';
 import icon_search from "../Images/icon_search.png";
 import itme_1 from "../Images/itme_1.png";
 import { } from 'react-bootstrap-icons';
+import Data from "../local-json/data.json";
 
 const Sidebar = () => {
 
-    var data = {
-        "person": 100,
-        "dining table": 2,
-        "potted plant": 3,
-        "car": 2,
-        "All": 76,
-    }
-    let objKeys = Object.keys(data);
-    var frame = {
-        "person": {
-            "frames": [
-                "7",
-                "11",
-                "12",
-                "16",
-                "17",
-                "20",
-                "23",
-                "27",
-                "32",
-                "34"
-            ]
-        },
-        "dining table": {
-            "frames": [
-                "11",
-                "17"
-            ]
-        },
-        "potted plant": {
-
-            "frames": [
-                "11",
-                "17",
-                "34"
-            ]
-        },
-        "car": {
-
-            "frames":
-                [
-                    "16",
-                    "28"
-                ]
-        }
-
-    }
+    let objKeys = Object.keys(Data.objects_count);
 
     console.log(objKeys);
     return (
@@ -73,7 +28,7 @@ const Sidebar = () => {
                                         if (d != "all" && d != "All" && d != "ALL") {
                                             return (
                                                 <Accordion.Item eventKey={i}>
-                                                    <Accordion.Header>{d.charAt(0).toUpperCase() + d.slice(1)}<span className='number'>({data[d]})</span></Accordion.Header>
+                                                    <Accordion.Header>{d.charAt(0).toUpperCase() + d.slice(1)}<span className='number'>({Data.objects_count[d]})</span></Accordion.Header>
                                                     {/* {
                                                         objKeys.map((f, i, a) => {
                                                             return ( */}
