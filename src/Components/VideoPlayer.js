@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import VideoPlayer from 'react-video-js-player';
+// import Video1 from "../Images/video";
 class VideoApp extends Component {
     player = {}
     state = {
         video: {
-            src: "http://img-ys011.didistatic.com/static/didiglobal/do1_pcUZZjSG7vFlMbdr8fA6#.mp4",
+            // src:{Video1},
+            src:"https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-webm-file.webm",
+            // src: "http://img-ys011.didistatic.com/static/didiglobal/do1_pcUZZjSG7vFlMbdr8fA6#.mp4",
             poster: "https://i.imgur.com/dG5rl3u.jpeg",
             type: 'video/mp4'
         }
@@ -16,7 +19,6 @@ class VideoApp extends Component {
     onVideoPlay(duration) {
         console.log("Video played at: ", duration);
     }
-
     onVideoPause(duration) {
         console.log("Video paused at: ", duration);
     }
@@ -30,11 +32,9 @@ class VideoApp extends Component {
         console.log(intervalInSeconds);
         console.log("Time updated: ", duration);
     }
-
     onVideoSeeking(duration) {
         console.log("Video seeking: ", duration);
     }
-
     onVideoSeeked(from, to) {
         console.log(`Video seeked from ${from} to ${to}`);
     }
@@ -44,7 +44,6 @@ class VideoApp extends Component {
     pauseVideo = () => {
         this.video.pause();
     };
-
     MoveProgressBar(value) {
         document.getElementsByTagName("video")[0].play()
     }
@@ -54,14 +53,10 @@ class VideoApp extends Component {
                 <div className="vedio_wraper ">
                     <div className="card">
                         <div className="bar_movment" id="bar_movment" onMouseDown={() => { this.MoveProgressBar() }}>
-                            <span>33</span>
+                            <span></span>
                         </div>
                         <div class="vedio_bar" id="Don" type="range" min="0" max="100" >
                             <span class="box_1"></span>
-                            <span class="box_2"></span>
-                            <span class="box_3"></span>
-                            <span class="box_4"></span>
-                            <span class="box_5"> </span> 
                             </div>
                         <div className="vedio">
                             <VideoPlayer id="myvideo"

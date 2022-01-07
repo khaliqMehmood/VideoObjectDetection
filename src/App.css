@@ -60,7 +60,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
 	font-family: 'SF UI Display';
   src: url('/src/Fonts//SFUIDisplay-Thin.woff2') format('woff2'),
@@ -69,7 +68,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 * {
 	margin: 0;
 	padding: 0;
@@ -592,7 +590,7 @@ button.btn_download.btn.btn-primary {
 	
 }
 .video-js .vjs-slider{
-	background: transparent!important;
+	background: transparent !important;
 }
 .video-js .vjs-play-progress{
 	background: transparent;
@@ -699,7 +697,7 @@ button.btn_download.btn.btn-primary {
     background-color:  transparent !important;
   }
   .video-js .vjs-load-progress {
-    background: rgba(115, 133, 159, 0.5) !important;
+    background:none !important;
   }
   .video-js .vjs-progress-control {
     cursor: pointer;
@@ -728,4 +726,7 @@ button.btn_download.btn.btn-primary {
     
     width: 6em !important;
     
+}
+.video-js .vjs-play-progress:before {
+    display: none imo !important;
 }

@@ -32,19 +32,7 @@ const Sidebar = () => {
                                             <Accordion.Item eventKey={i}>
                                     <Accordion.Header>{d.charAt(0).toUpperCase() + d.slice(1)}<span className='number'>({data[d]})</span></Accordion.Header>
                                     <Accordion.Body>
-                                        {/* <ul>
-                                            <li> <img src={itme_1} alt='' /></li>
-                                            <li> <img src={itme_1} alt='' /></li>
-                                            <li> <img src={itme_1} alt='' /></li>
-                                            <li> <img src={itme_1} alt='' /></li>
-                                            <li> <img src={itme_1} alt='' /></li>
-                                            <li> <img src={itme_1} alt='' /></li>
-                                            <li> <img src={itme_1} alt='' /></li>
-                                            <li> <img src={itme_1} alt='' /></li>
-                                            <li> <img src={itme_1} alt='' /></li>
-                                            <li> <img src={itme_1} alt='' /></li>
-
-                                        </ul> */}
+                                     
                                     </Accordion.Body>
                                 </Accordion.Item>
                                         )
