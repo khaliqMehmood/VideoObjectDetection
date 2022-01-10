@@ -1,22 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import Slider from "react-slick"; 
-// import userData from "../local-json/data.json";
+import Data from "../local-json/data.json";
 // import axios from "axios";
 export default function SimpleSlider() {
-  var data = {
-    "All": 76,
-    "person": 50,
-    "dining table": 2,
-    "potted plant": 3,
-    "car": 2,
-  }
-let objKeys = Object.keys(data);
+console.log(Data);
+let objKeys = Object.keys(Data.objects_count);
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 2,
+    speed: 300,
+    slidesToShow: 5,
+    slidesToScroll: 3,
     responsive: [
       {
         breakpoint: 1366,
@@ -53,7 +47,6 @@ let objKeys = Object.keys(data);
     //   .get("./data.json")
     //   .catch(err=>console.log(err))
     // },[]);
-    // console.log(data)
 
 
   return (
@@ -62,7 +55,7 @@ let objKeys = Object.keys(data);
         objKeys.map((d,i,a) => {
           return (
             <div className='card-item'>
-              <h1 className="text_blue">{data[d]}</h1>
+              <h1 className="text_blue">{Data.objects_count[d]}</h1>
               <p>{d.charAt(0).toUpperCase() + d.slice(1)}</p>
             </div>    
           )

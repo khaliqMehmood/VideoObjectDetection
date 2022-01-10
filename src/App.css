@@ -115,7 +115,7 @@ header button.btn_togaller.btn.btn-primary {
 }
 .header-footer {
 	min-height: 52px;
-	background: #ECEDEF 0% 0% no-repeat padding-box;
+	background: #ECEDEF 0% 0% no-repeat padding-box !important;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -151,12 +151,12 @@ header button.btn_togaller.btn.btn-primary {
 	background: #fff;
 	display: flex;
 	flex-flow: wrap;
-  position:fixed;
-  left: 0;
-  top: 117px;
+    position:fixed;
+    left: 0;
+    top: 117px;
 }
 .header-wraper {
-  position: fixed;
+  position: fixed !important;
   width: 100%;
   z-index: 1;
 }
@@ -250,6 +250,8 @@ header button.btn_togaller.btn.btn-primary {
 
 .side-bar .Accordion-wrapar {
 	margin-top: 20px;
+	height: 500px;
+	overflow-y: auto;
 }
 
 .main-content {
@@ -679,6 +681,7 @@ button.btn_download.btn.btn-primary {
     position: fixed;
     bottom: 0; right: 0;
 	left: 370px;
+	visibility: hidden;
   }
   .vjs-progress-control {  
     position: fixed;
@@ -697,7 +700,10 @@ button.btn_download.btn.btn-primary {
     background-color:  transparent !important;
   }
   .video-js .vjs-load-progress {
-    background:none !important;
+    background: none !important;
+  }
+  .video-js .vjs-play-progress:before{
+	  display: none !important;
   }
   .video-js .vjs-progress-control {
     cursor: pointer;
@@ -725,8 +731,40 @@ button.btn_download.btn.btn-primary {
 .video-js .vjs-control {
     
     width: 6em !important;
-    
 }
-.video-js .vjs-play-progress:before {
-    display: none imo !important;
+.validation{  
+    color: red;
+	padding-bottom: 13px;
+	font-size: 20px;
+	font-family: 'SF UI Display'; 
 }
+.div1 {
+	width: 250px;
+	height: 180px;
+	border: 3px solid rgb(83, 201, 236);
+	opacity: 10;
+  }
+.div1:hover{
+	border:3px solid rgb(59, 96, 121);
+}
+.tooltip {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	opacity: 10;
+  }
+  
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+  }
+  
