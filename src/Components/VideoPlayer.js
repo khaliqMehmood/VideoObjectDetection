@@ -7,8 +7,8 @@ class VideoApp extends Component {
     player = {}
     state = {
         video: {
-            // src: "http://img-ys011.didistatic.com/static/didiglobal/do1_pcUZZjSG7vFlMbdr8fA6#.mp4",
-            src: { video1 },
+            src: "http://img-ys011.didistatic.com/static/didiglobal/do1_pcUZZjSG7vFlMbdr8fA6#.mp4",
+            // src: { video1 },
             poster: "https://i.imgur.com/dG5rl3u.jpeg",
             type: 'video/mp4'
         }
@@ -21,7 +21,6 @@ class VideoApp extends Component {
     onVideoPlay(duration) {
         console.log("Video played at: ", duration);
     }
-
     onVideoPause(duration) {
         console.log("Video paused at: ", duration);
     }
@@ -35,11 +34,9 @@ class VideoApp extends Component {
         console.log(intervalInSeconds);
         console.log("Time updated: ", duration);
     }
-
     onVideoSeeking(duration) {
         console.log("Video seeking: ", duration);
     }
-
     onVideoSeeked(from, to) {
         console.log(`Video seeked from ${from} to ${to}`);
     }
@@ -49,9 +46,9 @@ class VideoApp extends Component {
     pauseVideo = () => {
         this.video.pause();
     };
-
     MoveProgressBar(value) {
-        document.getElementsByTagName("video")[0].play()
+        document.getElementsByTagName("video")[0].play();
+        
     }
     render() {
         return (

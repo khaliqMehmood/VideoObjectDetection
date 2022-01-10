@@ -60,7 +60,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
 	font-family: 'SF UI Display';
   src: url('/src/Fonts//SFUIDisplay-Thin.woff2') format('woff2'),
@@ -69,7 +68,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 * {
 	margin: 0;
 	padding: 0;
@@ -252,8 +250,8 @@ header button.btn_togaller.btn.btn-primary {
 
 .side-bar .Accordion-wrapar {
 	margin-top: 20px;
-	overflow-y: auto;
 	height: 500px;
+	overflow-y: auto;
 }
 
 .main-content {
@@ -594,7 +592,7 @@ button.btn_download.btn.btn-primary {
 	
 }
 .video-js .vjs-slider{
-	background: transparent!important;
+	background: transparent !important;
 }
 .video-js .vjs-play-progress{
 	background: transparent;
