@@ -22,8 +22,6 @@ const Home = () => {
           [name]: value,
         });
       };
-      console.log(URL);
-
       const Add = async () => {
         const { url } = URL;
         let isValid = true;

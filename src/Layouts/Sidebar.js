@@ -9,8 +9,8 @@ import Data from "../local-json/data.json";
 const Sidebar = () => {
 
     let objKeys = Object.keys(Data.objects_count);
-
-    console.log(objKeys);
+    let objLocation = Object.keys(Data.objects_loc);
+    let allFrames = Data.objects_loc;
     return (
         <>
             <div className="main-body">
@@ -31,19 +31,19 @@ const Sidebar = () => {
                                             return (
                                                 <Accordion.Item eventKey={i}>
                                                     <Accordion.Header>{d.charAt(0).toUpperCase() + d.slice(1)}<span className='number'>({Data.objects_count[d]})</span></Accordion.Header>
-                                                    {/* {
-                                                        objKeys.map((f, i, a) => {
-                                                            return ( */}
-                                                    <Accordion.Body>
-                                                        <ul>
-                                                            <li> <img src={itme_1} alt='' /></li>
-                                                            {/* <li>{d}<span className='number'>({Data.objects_loc[d]})</span></li> */}
-                                                        </ul>
-                                                    </Accordion.Body>
-                                                    {/* )
-                                                        }
-                                                        )} */}
-
+                                                        <Accordion.Body>
+                                                            {
+                                                                allFrames[d].frames.map((d, i, a) => {
+                                                                    console.log(d);
+                                                                    return (
+                                                                        <ul>
+                                                                            <li> <img src={d} alt='' /></li>
+                                                                        </ul>
+                                                                    )
+                                                                    
+                                                                })
+                                                            }
+                                                        </Accordion.Body>
                                                 </Accordion.Item>
                                             )
                                         }

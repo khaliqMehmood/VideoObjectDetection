@@ -3,12 +3,11 @@ import Slider from "react-slick";
 import Data from "../local-json/data.json";
 // import axios from "axios";
 export default function SimpleSlider() {
-console.log(Data);
 let objKeys = Object.keys(Data.objects_count);
   var settings = {
     dots: true,
     infinite: true,
-    speed: 300,
+    speed: 500,
     slidesToShow: 5,
     slidesToScroll: 3,
     responsive: [
@@ -40,15 +39,6 @@ let objKeys = Object.keys(Data.objects_count);
       }
     ]
   };
-  // const [data,setData]=useState([]);
-    // const [data, setdata] = useState(userData);
-    // useEffect(() => {
-    //   axios
-    //   .get("./data.json")
-    //   .catch(err=>console.log(err))
-    // },[]);
-
-
   return (
     <Slider {...settings}>
       { 
@@ -61,72 +51,6 @@ let objKeys = Object.keys(Data.objects_count);
           )
         })
       }    
-      
-      {/* <div className='card-item'>
-        <h1 className="text_blue">{data.All}</h1>
-        <p>All Results</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="text_blue">{data.person}</h1>
-        <p>Person</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="text_blue">{data['dining table']}</h1>
-        <p>Dining table</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="text_blue">{data['potted plant']}</h1>
-        <p>Potted plant</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="text_blue">{data.car}</h1>
-        <p>Car</p>
-      </div> */}
-      
-      {/* <div className='card-item'>
-        <h1 className="lit_blue">10</h1>
-        <p>People</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="lit_green">4</h1>
-        <p>Celebrities</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="orange">15</h1>
-        <p>Objects & Activities</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="pink">14</h1>
-        <p>Moderated Labels</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="text-red">47</h1>
-        <p>Cars</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="text_blue">47</h1>
-        <p>All Results</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="lit_blue">10</h1>
-        <p>People</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="lit_green">4</h1>
-        <p>Celebrities</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="orange">15</h1>
-        <p>Objects & Activities</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="pink">14</h1>
-        <p>Moderated Labels</p>
-      </div>
-      <div className='card-item'>
-        <h1 className="text-red">47</h1>
-        <p>Cars</p>
-      </div> */}
     </Slider>
   );
 }
