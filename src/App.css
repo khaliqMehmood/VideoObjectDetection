@@ -750,6 +750,7 @@ button.btn_download.btn.btn-primary {
 .tooltip {
 	position: relative;
 	display: inline-block;
+	opacity: 10;
   }
   
   .tooltip .tooltiptext {
