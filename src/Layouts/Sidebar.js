@@ -16,11 +16,13 @@ const Sidebar = () => {
             <div className="main-body">
                 <div className="side-bar">
                     <div className='part_one'>
+
                         <h6>Result Details:</h6>
                         <div className="search_box">
                             <input type="text" className="form-control" name="" placeholder="Search" />
                             <img src={icon_search} type="submit" className="icon_search" alt="" />
                         </div>
+
                         <div className='Accordion-wrapar'>
                             <Accordion defaultActiveKey="0" flush>
                                 {
@@ -35,6 +37,7 @@ const Sidebar = () => {
                                                     <Accordion.Body>
                                                         <ul>
                                                             <li> <img src={itme_1} alt='' /></li>
+                                                            {/* <li>{d}<span className='number'>({Data.objects_loc[d]})</span></li> */}
                                                         </ul>
                                                     </Accordion.Body>
                                                     {/* )

@@ -153,7 +153,7 @@ header button.btn_togaller.btn.btn-primary {
 	background: #fff;
 	display: flex;
 	flex-flow: wrap;
-    position:absolute;
+    position:fixed;
     left: 0;
     top: 117px;
 }
@@ -252,6 +252,8 @@ header button.btn_togaller.btn.btn-primary {
 
 .side-bar .Accordion-wrapar {
 	margin-top: 20px;
+	overflow-y: auto;
+	height: 500px;
 }
 
 .main-content {
@@ -750,6 +752,7 @@ button.btn_download.btn.btn-primary {
 .tooltip {
 	position: relative;
 	display: inline-block;
+	opacity: 10;
   }
   
   .tooltip .tooltiptext {
