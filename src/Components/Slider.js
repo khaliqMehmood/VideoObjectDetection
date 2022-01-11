@@ -39,13 +39,16 @@ let objKeys = Object.keys(Data.objects_count);
       }
     ]
   };
+  let randomColors = () => {
+    return `#${Math.floor(Math.random()*16777215).toString(16)}`
+  }
   return (
     <Slider {...settings}>
       { 
         objKeys.map((d,i,a) => {
           return (
             <div className='card-item'>
-              <h1 className="text_blue">{Data.objects_count[d]}</h1>
+              <h1 style={{ color: randomColors() }} >{Data.objects_count[d]}</h1>
               <p>{d.charAt(0).toUpperCase() + d.slice(1)}</p>
             </div>    
           )

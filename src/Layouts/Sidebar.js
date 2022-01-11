@@ -9,7 +9,6 @@ import Data from "../local-json/data.json";
 const Sidebar = () => {
 
     let objKeys = Object.keys(Data.objects_count);
-    let objLocation = Object.keys(Data.objects_loc);
     let allFrames = Data.objects_loc;
     return (
         <>
@@ -34,7 +33,7 @@ const Sidebar = () => {
                                                         <Accordion.Body>
                                                             {
                                                                 allFrames[d].frames.map((d, i, a) => {
-                                                                    console.log(d);
+                                                                    // console.log(d);
                                                                     return (
                                                                         <ul>
                                                                             <li> <img src={d} alt='' /></li>

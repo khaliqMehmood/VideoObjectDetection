@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import VideoPlayer from 'react-video-js-player';
 import video1 from '../Images/video.mp4';
 import Data from "../local-json/data.json";
+let allTime = Data.objects_loc;
+let objKeys = Object.keys(Data.objects_count);
 class VideoApp extends Component {
 
     player = {}
@@ -13,7 +15,6 @@ class VideoApp extends Component {
             type: 'video/mp4'
         }
     }
-
     onPlayerReady(player) {
         console.log("Player is ready: ", player);
         this.player = player;
@@ -48,26 +49,33 @@ class VideoApp extends Component {
     };
     MoveProgressBar(value) {
         document.getElementsByTagName("video")[0].play();
-        
+
     }
     render() {
         return (
             <>
-
-            {console.log(Data)}
+                {console.log(allTime)}
                 <div className="vedio_wraper ">
                     <div className="card">
                         <div className="bar_movment" id="bar_movment" onMouseDown={() => { this.MoveProgressBar() }}>
                             <span>0.0</span>
                         </div>
                         <div className="vedio_bar" id="Don" type="range" min="0" max="100" >
-                            {/* {   
-                            this.person.time.map(data=> {
-                                return (
-                                    <span className="box_1"> {data[0]} {data[1]} </span>
-                                )
-                            })
-                        } */}
+
+                            {/* {
+                                objKeys.map((d, i, a) => {
+                                    return(
+                                        allTime[d].time.map((d, i, a) => {
+
+                                            return (
+                                                <span className="box_3">abc</span>
+                                            )
+
+                                        })
+                                    )
+                                    
+                                })
+                            } */}
                             <span className="box_1"> </span>
                             <span className="box_2"> </span>
                             <span className="box_3"> </span>

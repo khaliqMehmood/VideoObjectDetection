@@ -310,7 +310,9 @@ header button.btn_togaller.btn.btn-primary {
 }
 
 .text_blue {
-	color: #147BFC;
+	color: blue;
+	/* rgb(red, green, blue); */
+	/* {`rgb(${random(255)}, ${random(255)}, ${random(255)})`} */
 }
 
 .lit_blue {
