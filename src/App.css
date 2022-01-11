@@ -477,6 +477,9 @@ button.btn_download.btn.btn-primary {
 	flex-direction: column;
 	margin: 20px auto;
 }
+.card-item:hover{
+	background-color: #dceafa;
+}
 
 .card-item h1 {
 	text-align: center;

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import VideoPlayer from 'react-video-js-player';
 import video1 from '../Images/video.mp4';
 import Data from "../local-json/data.json";
-let allTime = Data.objects_loc;
-let objKeys = Object.keys(Data.objects_count);
+var allTime = Data.objects_loc;
+var objKeys = Object.keys(Data.objects_loc);
 class VideoApp extends Component {
 
     player = {}
@@ -28,7 +28,7 @@ class VideoApp extends Component {
     onVideoTimeUpdate(duration) {
         let intervalInSeconds = Math.floor(duration);
         let beautifySeconds = `0:${intervalInSeconds}`;
-        let durationInPercantage = (duration / 15) * 100;
+        let durationInPercantage = (duration / 39) * 100;
         let barElement = document.getElementById("bar_movment");
         barElement.style.left = durationInPercantage + '%';
         barElement.children[0].textContent = beautifySeconds;
@@ -51,10 +51,28 @@ class VideoApp extends Component {
         document.getElementsByTagName("video")[0].play();
 
     }
+
+    componentDidMount(){
+        console.log("kjfkdjfkldjklfjdklfjld");
+        console.log(allTime);
+
+        for (const key in allTime) {
+            console.log("key", key);
+            if (Object.hasOwnProperty.call(allTime, key)) {
+                const objectMesh = allTime[key];
+                const timespan = objectMesh.time;
+                for (let x = 0; x <= timespan.length; x++) {
+                    let time = timespan[x];
+                    console.log("timespan", time);
+                }
+                
+            }
+        }
+    }
     render() {
         return (
             <>
-                {console.log(allTime)}
+                {console.log(objKeys)}
                 <div className="vedio_wraper ">
                     <div className="card">
                         <div className="bar_movment" id="bar_movment" onMouseDown={() => { this.MoveProgressBar() }}>

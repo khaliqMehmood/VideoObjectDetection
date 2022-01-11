@@ -39,6 +39,9 @@ let objKeys = Object.keys(Data.objects_count);
       }
     ]
   };
+  const select = (data) =>{
+  console.log("You are a", data);
+  }
   let randomColors = () => {
     return `#${Math.floor(Math.random()*16777215).toString(16)}`
   }
@@ -47,7 +50,7 @@ let objKeys = Object.keys(Data.objects_count);
       { 
         objKeys.map((d,i,a) => {
           return (
-            <div className='card-item'>
+            <div className='card-item' type='submit' onClick={() => select(d)}>
               <h1 style={{ color: randomColors() }} >{Data.objects_count[d]}</h1>
               <p>{d.charAt(0).toUpperCase() + d.slice(1)}</p>
             </div>    
