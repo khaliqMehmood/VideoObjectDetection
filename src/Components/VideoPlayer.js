@@ -72,7 +72,6 @@ class VideoApp extends Component {
     render() {
         return (
             <>
-                {console.log(objKeys)}
                 <div className="vedio_wraper ">
                     <div className="card">
                         <div className="bar_movment" id="bar_movment" onMouseDown={() => { this.MoveProgressBar() }}>

@@ -30,14 +30,12 @@ const Home = () => {
             error.Urlerror = "URL cannot be empty";
           isValid = false;
         } 
-        console.log(error.Urlerror);
         setError({ ...error });
         return isValid ? validate(isValid) : console.log("invalid");
       };
 
       const validate = async (isValid) => {
         if (isValid) {
-        //   const res = await AuthService.blogs(`${ENV.API_URL}category`, blog);
           console.log(isValid);
         }
       };

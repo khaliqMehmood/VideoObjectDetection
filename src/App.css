@@ -478,7 +478,8 @@ button.btn_download.btn.btn-primary {
 	margin: 20px auto;
 }
 .card-item:hover{
-	background-color: #dceafa;
+	/* background-color: #cad8e8; */
+	border-bottom: 5px solid #147BFC;
 }
 
 .card-item h1 {
