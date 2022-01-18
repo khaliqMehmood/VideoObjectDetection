@@ -21,58 +21,65 @@
     "cow": {
       "time": [
         [
-          17.95,
-          18.00
+          19.19,
+          19.22
         ],
         [
-          19.15,
-          23.19
+          29.83,
+          32.77
+        ],
+        [
+          34.43,
+          34.47
+        ],
+        [
+          36.1,
+          36.9
         ]
       ],
       "frames": [
-        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame574.jpg"
+        "https://i.imgur.com/dG5rl3u.jpeg"
       ]
     },
     "bear": {
       "time": [
         [
-          30.76,
-          33.8
-        ],
-        [
-          29.00,
-          30.03
+          0,
+          3.94
         ]
       ],
       "frames": [
-        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame899.jpg"
+        "https://i.imgur.com/dG5rl3u.jpeg"
       ]
     },
     "dog": {
       "time": [
-        
         [
-          30.76,
-          32.8
-        ],
-        [
-          33.00,
-          34.03
+          1.17,
+          4.6
         ]
       ],
       "frames": [
-        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame899.jpg"
+        "https://i.imgur.com/dG5rl3u.jpeg"
       ]
     },
     "zebra": {
       "time": [
         [
-          23.72,
-          25.76
+          4.6,
+          7.81
+        ],
+        [
+          10.48,
+          15.22
+        ],
+        [
+          29.66,
+          29.7
         ]
       ],
       "frames": [
-        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame730.jpg"
+        "https://i.imgur.com/dG5rl3u.jpeg"
       ]
     },
     "bird": {
@@ -83,20 +90,34 @@
         ]
       ],
       "frames": [
-        "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame711.jpg"
+        "https://i.imgur.com/dG5rl3u.jpeg",
+        "https://i.imgur.com/dG5rl3u.jpeg",
+        "https://i.imgur.com/dG5rl3u.jpeg"
+
       ]
     },
     "person": {
       "time": [
         [
-          1.4,
-          1.43
+          4.57,
+          4.64
         ],
-        
         [
-          2.04,
-          2.07
-        ]
+          7.67,
+          7.77
+        ],
+        [
+          15.12,
+          19.29
+        ],
+        [
+          26.16,
+          26.23
+        ],
+        [
+          28.06,
+          29.56
+        ] 
       ],
       "frames": [
         "/home/hp/Machine Learning/videoObjectDetection/app/processed/frame61.jpg"

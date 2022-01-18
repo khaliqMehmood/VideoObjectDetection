@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Col, Row } from 'react-bootstrap'
 import { } from 'react-bootstrap-icons';
-import SimpleSlider from './Slider';
-import VideoApp from './VideoPlayer';
+import SimpleSlider from '../Layouts/Slider';
+import VideoApp from '../Layouts/VideoPlayer';
 import Sidebar from '../Layouts/Sidebar';
-import Body from './Body';
+// import Body from './Body';
 const Home = () => {
     const urlInitialStates = {
         url: "",
@@ -77,7 +77,6 @@ const Home = () => {
                     <div className='result-slider'>
                         <h1>Results</h1>
                         <p>Here are the results we found sorted by category. The marks on the timeline show where we found results that are selected.</p>
-                
                          <SimpleSlider />  
                         <VideoApp />
                     </div>

@@ -10,6 +10,9 @@ const Sidebar = () => {
 
     let objKeys = Object.keys(Data.objects_count);
     let allFrames = Data.objects_loc;
+    const myFunction = () => {
+
+    }
     return (
         <>
             <div className="main-body">
@@ -19,7 +22,7 @@ const Sidebar = () => {
                         <h6>Result Details:</h6>
                         <div className="search_box">
                             <input type="text" className="form-control" name="" placeholder="Search" />
-                            <img src={icon_search} type="submit" className="icon_search" alt="" />
+                            <img src={icon_search} type="submit" onKeyUp={myFunction} className="icon_search" alt="" />
                         </div>
 
                         <div className='Accordion-wrapar'>
@@ -30,19 +33,19 @@ const Sidebar = () => {
                                             return (
                                                 <Accordion.Item eventKey={i}>
                                                     <Accordion.Header>{d.charAt(0).toUpperCase() + d.slice(1)}<span className='number'>({Data.objects_count[d]})</span></Accordion.Header>
-                                                        <Accordion.Body>
-                                                            {
-                                                                allFrames[d].frames.map((d, i, a) => {
-                                                                    // console.log(d);
-                                                                    return (
-                                                                        <ul>
-                                                                            <li> <img src={d} alt='' /></li>
-                                                                        </ul>
-                                                                    )
-                                                                    
-                                                                })
-                                                            }
-                                                        </Accordion.Body>
+                                                    <Accordion.Body>
+                                                        {
+                                                            allFrames[d].frames.map((d, i, a) => {
+                                                            
+                                                                return (
+                                                                    <ul>
+                                                                        <li> <img src= {d} alt=''/></li>
+                                                                    </ul>
+                                                                )
+
+                                                            })
+                                                        }
+                                                    </Accordion.Body>
                                                 </Accordion.Item>
                                             )
                                         }

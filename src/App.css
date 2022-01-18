@@ -167,8 +167,8 @@ header button.btn_togaller.btn.btn-primary {
 
 .part_two { 
   width: 400px; 
-  position: fixed;
-  bottom: 30px;
+  position: absolute;
+  bottom: -40px;
   left: 0;
   right: 0;  
   display: flex;
@@ -564,7 +564,7 @@ button.btn_download.btn.btn-primary {
 }
 
 .box_1 {
-	width: 25px;
+	width: 48px;
 	min-height: 24px;
 	background: #147BFC 0% 0% no-repeat padding-box;
 	
